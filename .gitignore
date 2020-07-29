@@ -1,6 +1,7 @@
 checkpoints/
 results/
 venv/
+datasets/train/
 *.tar.gz
 *.zip
 *.pkl
