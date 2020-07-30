@@ -10,11 +10,11 @@ import os
 size_of_datasets = 20000
 
 content_dir_source = '/data4/fan.ji/test2017/test2017/'
-style_dir_source = '/data4/fan.ji'
+style_dir_source = '/data4/fan.ji/art23817/'
 content_dir_train = '/data4/fan.ji/AdaIN/datasets/train/content/'
 style_dir_train = '/data4/fan.ji/AdaIN/datasets/train/style/'
 
-if not os.path.exists(content_dir_tran):
+if not os.path.exists(content_dir_train):
     os.makedirs(content_dir_train)
 
 if not os.path.exists(style_dir_train):
